@@ -1,0 +1,25 @@
+{% extends "_base.tpl.html" %}
+{% block title %}著作権 - 超PHPerになろう実験場{% endblock %}
+{% block content %}<main>
+    <h1>著作権</h1>
+    <p>このWebサイトのコンテンツは<a href="https://github.com/zonuexe">USAMI Kenta(@tadsan)</a>が著作権を保有するよ。</p>
+    <p><a href="https://github.com/zonuexe/cho-phper.sakura.ne.jp"><code>zonuexe/cho-phper.sakura.ne.jp</code></a>のコンテンツおよびソースコード<small>(ただし、個別の著作権表記またはライセンス表記があるものを除く)</small>は以下のライセンスに基いて<strong>自由に</strong>二次利用できるよ。</p>
+    <h2>ライセンス</h2>
+    <p>上記リポジトリに由来するコンテンツおよびソースコード<small>(文章および、文中に含まれるソースコード断片を含む)</small>は以下の通りライセンスされるよ。</p>
+    <blockquote><code><pre>        <a href="http://www.wtfpl.net/">DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE</a>
+                    Version 2, December 2004
+
+ Copyright (C) 2004 Sam Hocevar &lt;sam@hocevar.net&gt;
+
+ Everyone is permitted to copy and distribute verbatim or modified
+ copies of this license document, and changing it is allowed as long
+ as the name is changed.
+
+            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+
+  0. You just DO WHAT THE FUCK YOU WANT TO.</pre></code></blockquote>
+    <p>ただし依存関係に含まれる自由ソフトウェア<small>(<a href="https://www.gnu.org/licenses/gpl-3.0.ja.html"><abbr title="GNU General Public License">GPL</abbr></a>および<a href="https://www.gnu.org/licenses/">そのほかのライセンス</a>)</small>と組み合せてソースコードを二次利用／配布する際のライセンスには注意してね。</p>
+    <h2>依存関係</h2>
+    <p>本プロジェクトの依存関係を含めたライセンスは<code>composer license</code>コマンドで出力することができるよ。または、<a href="{{ url_to('composer', {'?ext': 'lock'}) }}"><code>composer.lock</code></a>ファイルからも確認することができるよ。</p>
+</main>{% endblock %}

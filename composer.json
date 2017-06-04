@@ -1,0 +1,15 @@
+{
+    "name": "zonuexe/test-sakura-rensaba",
+    "description": "Test PHP app for Sakura-no rental server.",
+    "type": "project",
+    "license": "WTFPL",
+    "autoload": {
+        "files": ["inc/functions.php"]
+    },
+    "require": {
+        "filp/whoops": "^2.1",
+        "zonuexe/simple-routing": "^0.5.3",
+        "twig/twig": "^2.3",
+        "monolog/monolog": "^1.22"
+    }
+}

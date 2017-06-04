@@ -1,0 +1,23 @@
+{# @copyright USAMI Kenta(tadsan) | @license WTFPL #}
+{% extends "_base.tpl.html" %}
+{% block title %}超PHPerになろう実験場{% endblock %}
+{% block content %}<main>
+    <h1><ruby>超PHPer<rt>ちょうぺちぱ</rt></ruby>になろう実験場</h1>
+    <p>
+        超PHPのホームページへようこそ ヾ(〃＞＜)ﾉﾞ☆
+    </p>
+
+    <h2>これはなに</h2>
+    <p><a href="http://cho-phper.hateblo.jp/">超PHPerになろう</a>ってblogを書いてるひとが、適当なPHPコードを動かすために作ったよ。</p>
+
+
+    <h2>構成</h2>
+    <p>さくらのレンタルサーバーのライトプランでPHP 7.1を動かしてるよ。</p>
+    <p>特にフレームワークとか使ってなくて、テンプレートエンジンには<a href="https://twig.sensiolabs.org/">Twig</a>を、ルーティングエンジンには<a href="https://github.com/BaguettePHP/TetoRouting">BaguettePHP/TetoRouting</a>を使ってるよ。</p>
+
+    <h2>おしながき</h2>
+    <ul>
+        <li><a href="{{ url_to('phpinfo') }}">phpinfo</a></li>
+        <li><a href="{{ url_to('license') }}">著作権とライセンス</a></li>
+    </ul>
+</main>{% endblock %}
